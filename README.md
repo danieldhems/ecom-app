@@ -36,28 +36,3 @@ I would very much like to learn how best to handle this.
 Another issue I have encountered and have attempted to solve is the ability to go back to the search results. Going back may be simple enough, but I want to retain the search results in some way so that the page immediately loads with all the content it contained from the previous search activity.
 
 I understand that there may be several ways of achieving this and, again, I'd like to learn the best way.
-
-```
-
-## Developing
-
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
-
-```bash
-npm run dev
-
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
-
-## Building
-
-To create a production version of your app:
-
-```bash
-npm run build
-```
-
-You can preview the production build with `npm run preview`.
-
-> To deploy your app, you may need to install an [adapter](https://svelte.dev/docs/kit/adapters) for your target environment.
