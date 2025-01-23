@@ -19,6 +19,9 @@ export type Product = {
     // TODO: Might be better to define a generic type to match the expected format of a currency string
     product_price: string;
     product_original_price: string;
+    product_description: string;
+    product_byline: string;
+    product_byline_link: string;
     currency: keyof Currencies;
     product_star_rating: string;
     product_num_ratings: number;
